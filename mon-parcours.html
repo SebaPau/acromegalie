@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Parcours personnel de Sébastien P. avec l’acromégalie : historique médical, opérations, traitements, analyses sanguines et outils de suivi.">
+  <meta name="robots" content="index, follow">
+  <title>Mon parcours – Sébastien P. et l’acromégalie</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon"><img src="../assets/logo-acromegalie.jpg" alt="Logo Acromégalie"></div>
+        <span>Acromégalie</span>
+      </a>
+      <div class="header-actions">
+        <select class="lang-switch" onchange="doTranslate(this.value)" aria-label="Langue">
+          <option value="fr">FR</option>
+          <option value="en">EN</option>
+          <option value="es">ES</option>
+        </select>
+        <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" aria-label="Mode sombre">🌙</button>
+        <button class="menu-toggle" aria-label="Menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="acromegalie.html">L’acromégalie</a></li>
+          <li><a href="symptomes.html">Symptômes</a></li>
+          <li><a href="diagnostic.html">Diagnostic</a></li>
+          <li><a href="traitements.html">Traitements</a></li>
+          <li><a href="alimentation.html">Alimentation</a></li>
+          <li><a href="vivre.html">Vivre avec</a></li>
+          <li><a href="pathologies.html">Pathologies</a></li>
+          <li><a href="mon-parcours.html" class="active">Mon parcours</a></li>
+          <li><a href="info-sante.html">Info santé</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <a href="../index.html" class="back-btn">← Retour à l’accueil</a>
+    <div class="page-header">
+      <nav class="breadcrumb" aria-label="Fil d’Ariane"><a href="../index.html">Accueil</a><span class="bc-sep">/</span><span class="bc-current">Mon parcours</span></nav>
+      <h1>Mon parcours avec l’acromégalie</h1>
+    </div>
+
+    <div class="disclaimer">
+      <strong>Page personnelle – Sébastien P.</strong><br>
+      Cette page partage mon expérience individuelle (environ 25 ans d’acromégalie), mon historique médical et des outils de suivi. Elle n’est pas un conseil médical et ne remplace pas le suivi par votre endocrinologue.
+    </div>
+
+    <div class="content-block">
+      <h2>Qui suis-je dans ce contexte ?</h2>
+      <p>Je m’appelle <strong>Sébastien P.</strong> J’ai vécu l’acromégalie pendant environ 25 ans. J’ai contribué à la création de l’ancienne association <strong>Assomégalie</strong>, qui a notamment travaillé avec Orphanet autour de la mise à disposition en France du pegvisomant (Somavert®) en 2004. Ce site d’information est indépendant : je ne suis sponsorisé par aucun laboratoire, ni membre d’aucune organisation publique ou privée au titre de ce projet.</p>
+
+      <h2>Historique médical (à compléter)</h2>
+      <p>Cette section accueillera progressivement :</p>
+      <ul>
+        <li>Dates et nature des <strong>interventions chirurgicales</strong> (ex. voie transsphénoïdale)</li>
+        <li>Historique des <strong>traitements</strong> (analogues de la somatostatine, pegvisomant, autres)</li>
+        <li>Évolution des doses et changements de stratégie</li>
+        <li>Événements marquants (complications, ajustements, bilans)</li>
+      </ul>
+      <p><em>Contenu en cours de rédaction – les prochaines mises à jour y détailleront la chronologie.</em></p>
+
+      <h2>Analyses sanguines</h2>
+      <p>Espace prévu pour partager, de façon anonymisée ou synthétique, l’évolution de marqueurs utiles au suivi de l’acromégalie, par exemple :</p>
+      <ul>
+        <li>IGF-1 (et rapport à la norme selon l’âge / le laboratoire)</li>
+        <li>GH (si dosée dans le suivi)</li>
+        <li>Glycémie, HbA1c, bilan lipidique, bilans hépatiques ou autres selon le contexte</li>
+      </ul>
+      <p>Des tableaux ou graphiques simples pourront être ajoutés au fil du temps pour illustrer l’évolution sous traitement et, le cas échéant, sous changements alimentaires.</p>
+
+      <h2>Outils de suivi (à venir)</h2>
+      <p>Nous mettrons progressivement à disposition des outils simples pour suivre l’évolution de la maladie, par exemple :</p>
+      <ul>
+        <li>Tableau de suivi IGF-1 / dates de prélèvement</li>
+        <li>Journal des symptômes (fatigue, sueurs, maux de tête, articulations…)</li>
+        <li>Suivi des traitements et des doses</li>
+        <li>Notes sur l’alimentation ou l’activité physique</li>
+      </ul>
+      <p>Ces outils resteront gratuits, sans compte obligatoire si possible, et orientés patients / proches.</p>
+
+      <div class="note">
+        Toute information personnelle publiée ici le sera avec discernement. Les données de santé restent sensibles : ne partagez les vôtres qu’avec votre équipe soignante ou des outils de confiance.
+      </div>
+    </div>
+
+    <aside class="related-box">
+      <h3>À lire aussi</h3>
+      <ul>
+        <li><a href="traitements.html">Traitements</a></li>
+        <li><a href="vivre.html">Vivre avec</a></li>
+        <li><a href="alimentation.html">Alimentation</a></li>
+        <li><a href="info-sante.html">Info santé</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Acromégalie</div>
+        <p>Information claire et à jour pour les patients et leurs proches.</p>
+      </div>
+      <div class="footer-links">
+        <a href="acromegalie.html">L’acromégalie</a>
+        <a href="mon-parcours.html">Mon parcours</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 – Site d’information sur l’acromégalie. Version V1.15</div>
+  </footer>
+  <div id="google_translate_element" style="display:none"></div>
+  <script src="../js/site.js"></script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
